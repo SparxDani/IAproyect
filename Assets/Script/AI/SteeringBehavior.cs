@@ -18,7 +18,7 @@ public class SteeringBehavior : MonoBehaviour
 
     public void ClampMagnitude(Vector3 steeringForce)
     {
-        velocity = Vector3.ClampMagnitude(velocity + steeringForce * Time.deltaTime, maxSpeed);
+        velocity = Vector3.ClampMagnitude(velocity + steeringForce * (Time.deltaTime * 1.15f), maxSpeed);
     }
 
     public Vector3 Seek(Transform target)
