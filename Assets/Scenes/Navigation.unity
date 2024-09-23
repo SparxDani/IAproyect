@@ -171,7 +171,7 @@ Transform:
   m_GameObject: {fileID: 109181316}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.75008, y: 3.015, z: 90.29046}
+  m_LocalPosition: {x: 61.1, y: 3.015, z: 95.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -193,8 +193,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 109181317}
   player: {fileID: 109181319}
+  targetPosition: {x: 0, y: 0, z: 0}
   wanderRadius: 40
   evadeDistance: 10
+  stoppingDistance: 2
 --- !u!1 &972414841
 GameObject:
   m_ObjectHideFlags: 0
